@@ -1,0 +1,34 @@
+body{
+    background-color: grey;
+}
+
+.flex1{
+    display: flex;
+}
+
+.formulaire {
+    outline: none;
+    text-decoration: none;
+    display: inline;
+    width: 7%;
+    margin-right: 0.625%;
+    text-align: center;
+    line-height: 3;
+    color: blue;
+    border: solid;
+    border-radius: 5em;
+}
+
+.buttonIndex {
+    outline: none;
+    text-decoration: none;
+    display: inline;
+    width: 7%;
+    margin-right: 0.625%;
+    text-align: center;
+    line-height: 3;
+    color: blue;
+    border: solid;
+    border-radius: 5em;
+
+}
