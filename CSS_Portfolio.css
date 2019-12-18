@@ -9,36 +9,35 @@ body{
 
 }
 
+.index{
+    margin-top: 0.7em;
+}
+
 .buttonIndex{
+    margin-top: 0.5em;
+    margin-left: 0.5em;
+    background-image: url("img/yinyang.png");
+    display: inline;
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: center;
+    height: 4em;
+    width: 4em;
+    border-radius: 5em;
+
+
 }
 
 .Contact {
-    text-decoration: none;
+    background-image: url("img/logocontact.png");
     display: inline;
-    width: 7%;
-    margin-right: 0.625%;
+    background-repeat: no-repeat;
+    background-size: contain;
     text-align: center;
-    line-height: 3;
-    color: blue;
-    border: solid;
+    height: 5em;
+    width: 5em;
     border-radius: 5em;
 }
-
-.buttonIndex {
-    outline: none;
-    text-decoration: none;
-    display: inline;
-    width: 7%;
-    margin-right: 0.625%;
-    text-align: center;
-    line-height: 3;
-    color: blue;
-    border: solid;
-    border-radius: 5em;
-
-}
-
-
 
 .avatar{
 
