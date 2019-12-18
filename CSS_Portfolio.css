@@ -1,13 +1,18 @@
 body{
-    background-color: grey;
+    background-color: lightgrey;
 }
 
 .flex1{
     display: flex;
+    justify-content: space-between;
+    padding: 1.2rem 0 ;
+
 }
 
-.formulaire {
-    outline: none;
+.buttonIndex{
+}
+
+.Contact {
     text-decoration: none;
     display: inline;
     width: 7%;
@@ -31,4 +36,21 @@ body{
     border: solid;
     border-radius: 5em;
 
+}
+
+
+
+.avatar{
+
+    border-radius: 5em;
+    box-shadow: 2em 2em 2em black;
+}
+
+.presentationTete{
+    text-align: center;
+}
+
+.Titre2{
+    padding: 1em;
+    text-align: center;
 }
