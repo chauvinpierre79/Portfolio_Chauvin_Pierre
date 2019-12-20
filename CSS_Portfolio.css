@@ -1,5 +1,23 @@
+
+
+
+
+
 body{
-    background-color: lightgrey;
+
+}
+
+.Titre{
+    font-size: 3.5em;
+}
+
+.Soustitre{
+    font-size: 1.8em;
+    font-family: fantasy;
+}
+.schemapc{
+    margin-top: 5em;
+    text-align: center;
 }
 
 .flex1{
@@ -49,7 +67,224 @@ body{
     text-align: center;
 }
 
+
+
+.PresentationBody {
+    background-color: burlywood;
+    height: 30em;
+    text-align: center;
+    padding: 1em;
+
+}
+
+
+
+.Titre2,.TextePresentation{
+
+    color: white;
+}
+
+.CV{
+    margin-top: -7em;
+    display: flex;
+    border:solid;
+    border-radius: 2em;
+    margin-left: 5em;
+    margin-right: 5em;
+    justify-content: center;
+    background-color: white;
+    height: 40em;
+}
+
+.colonne1{
+    text-align: center;
+    border-right: solid;
+    width: 33%;
+}
+
+.colonne2{
+    text-align: center;
+    border-right: solid;
+    width: 33%;
+}
+
+.colonne3{
+    text-align: center;
+    width: 33%;
+}
+
+.TextePresentation{
+    font-size: 2em;
+    padding-left: 5em;
+    padding-right: 5em;
+    font-family: cursive;
+}
+
 .Titre2{
     padding: 1em;
     text-align: center;
 }
+
+.Designer,.Dev,.Experience{
+
+    font-size: 1.5em;
+}
+
+@media all and ( max-width: 1024px){
+
+    body{
+
+    }
+
+    .Titre{
+        font-size: 3.5em;
+    }
+
+    .Soustitre{
+        font-size: 1.8em;
+        font-family: fantasy;
+    }
+    .schemapc{
+        margin-top: 5em;
+        text-align: center;
+    }
+
+    .flex1{
+        display: flex;
+        justify-content: space-between;
+        padding: 1.2rem 0 ;
+
+    }
+
+    .index{
+        margin-top: 0.7em;
+    }
+
+    .buttonIndex{
+        margin-top: 0.5em;
+        margin-left: 0.5em;
+        background-image: url("img/yinyang.png");
+        display: inline;
+        background-repeat: no-repeat;
+        background-size: contain;
+        text-align: center;
+        height: 4em;
+        width: 4em;
+        border-radius: 5em;
+
+
+    }
+
+    .Contact {
+        background-image: url("img/logocontact.png");
+        display: inline;
+        background-repeat: no-repeat;
+        background-size: contain;
+        text-align: center;
+        height: 5em;
+        width: 5em;
+        border-radius: 5em;
+    }
+
+    .avatar{
+
+        border-radius: 5em;
+        box-shadow: 2em 2em 2em black;
+    }
+
+    .presentationTete{
+        text-align: center;
+    }
+
+
+
+    .PresentationBody {
+        background-color: burlywood;
+        height: 30em;
+        text-align: center;
+        padding: 1em;
+
+    }
+
+
+
+    .Titre2,.TextePresentation{
+
+        color: white;
+    }
+
+    .CV{
+        margin-top: -7em;
+        display: flex;
+        border:solid;
+        border-radius: 2em;
+        margin-left: 5em;
+        margin-right: 5em;
+        justify-content: center;
+        background-color: white;
+        height: 40em;
+    }
+
+    .colonne1{
+        text-align: center;
+        border-right: solid;
+        width: 33%;
+    }
+
+    .colonne2{
+        text-align: center;
+        border-right: solid;
+        width: 33%;
+    }
+
+    .colonne3{
+        text-align: center;
+        width: 33%;
+    }
+
+    .TextePresentation{
+        font-size: 1.8em;
+        padding-left: 5em;
+        padding-right: 5em;
+        font-family: cursive;
+    }
+
+    .Titre2{
+        font-size: 1em;
+        padding: 1em;
+        text-align: center;
+    }
+
+    .Designer,.Dev,.Experience{
+
+        font-size: 1em;
+    }
+
+}
+
+@media all and ( max-width: 743px){
+
+    .TextePresentation{
+        font-size: 1.6em;
+        padding-left: 5em;
+        padding-right: 5em;
+        font-family: cursive;
+    }
+
+
+}
+
+@media all and ( max-width: 305px){
+
+    .TextePresentation{
+        font-size: 0.9em;
+        padding-left: 5em;
+        padding-right: 5em;
+        font-family: cursive;
+    }
+
+
+}
+
+
+
